@@ -1,0 +1,22 @@
+{
+  "name": "yugioh",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexjuneja1/Yugioh.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexjuneja1/Yugioh/issues"
+  },
+  "homepage": "https://github.com/alexjuneja1/Yugioh#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
