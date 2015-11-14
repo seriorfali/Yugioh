@@ -3,6 +3,11 @@ var express = require("express");
 var cafeRoutes = express.Router();
 
 cafeRoutes.route("/")
-  .get(cafesController.index);
+  .get(cafesController.index)
+  .post()
+userRoutes.route("/:cafe_id")
+  .get()
+  .put()
+  .delete()
 
 module.exports(cafeRoutes);
