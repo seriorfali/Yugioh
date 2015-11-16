@@ -5,7 +5,7 @@ var cafeRoutes = express.Router();
 cafeRoutes.route("/")
   .get(cafesController.index)
   .post(cafesController.add)
-  
+
 cafeRoutes.route("/:cafe_id")
   .get(cafesController.show)
   .put(cafesController.update)

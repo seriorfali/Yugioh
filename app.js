@@ -18,12 +18,14 @@ app.use(function(req, res, next) {
   next();
 });
 
-app.get('/' function(req,res){
+app.get('/' function(req,res) {
   res.send('This is our Cafe list');
-})
+});
 
 var cafeRoutes = require('./routes/cafeRoutes.js')
-app.use('/cafes', cafeRoutes)
+
+// Routing.
+app.use('/cafes', cafeRoutes);
 
 app.listen(3000, function() {
   console.log('Server is now running on port 3000!');
