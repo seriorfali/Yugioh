@@ -4,10 +4,10 @@ var cafeRoutes = express.Router();
 
 cafeRoutes.route("/")
   .get(cafesController.index)
-  .post()
-userRoutes.route("/:cafe_id")
-  .get()
-  .put()
-  .delete()
+  .post(cafesController.add)
+cafeRoutes.route("/:cafe_id")
+  .get(cafesController.show)
+  .put(cafesController.update)
+  .delete(cafesController.destroy)
 
 module.exports(cafeRoutes);
