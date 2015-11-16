@@ -5,4 +5,4 @@ var cafeRoutes = express.Router();
 cafeRoutes.route("/")
   .get(cafesController.index);
 
-module.exports(cafeRoutes);
+module.exports = cafeRoutes;
